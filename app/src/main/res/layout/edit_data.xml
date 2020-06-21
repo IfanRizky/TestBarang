@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtJudul4"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textKodeBarang"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="Kode Barang"
+                android:textColor="@color/text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editKodeBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Edit Kode Barana"
+                android:textColor="@color/text"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textKodeNama"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="Nama Barang"
+                android:textColor="@color/text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editKodeNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Edit Nama Barang"
+                android:textColor="@color/text"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="7dp">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_save_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/btEdit"
+            />
+
+        <Button
+            android:id="@+id/button_cancel_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/btCancel"
+            />
+    </TableRow>
+    </TableLayout>
+</LinearLayout>

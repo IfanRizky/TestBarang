@@ -4,11 +4,14 @@
     <string name="btLihat">Lihat Data</string>
     <string name="btUpdate">Update Data</string>
     <string name="btHapus">Hapus Data</string>
+    <string name="btEdit">Edit</string>
+    <string name="btCancel">Cancel</string>
     <string name="bOk">Submit Data</string>
     <string name="eno">Kode Barang</string>
     <string name="enama">Nama Barang</string>
     <string name="txtJudul">ACTIVITAS</string>
     <string name="txtJudul2">Penambahan Data</string>
     <string name="txtJudul3">Data Barang</string>
+    <string name="txtJudul4">Edit Barang</string>
     <string name="txtKosong"></string>
 </resources>
