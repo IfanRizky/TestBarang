@@ -3,7 +3,7 @@
     <string name="btTambah">Tambah Data</string>
     <string name="btLihat">Lihat Data</string>
     <string name="btUpdate">Update Data</string>
-    <string name="btHapus">Hapus Data</string>
+    <string name="btHapus">Delete Data</string>
     <string name="btEdit">Edit</string>
     <string name="btCancel">Cancel</string>
     <string name="bOk">Submit Data</string>
