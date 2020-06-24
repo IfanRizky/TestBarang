@@ -12,6 +12,7 @@ public class AdapterLihatBarang extends RecyclerView.Adapter<AdapterLihatBarang.
 
     private ArrayList<Barang> daftarBarang;
     private Context context;
+
     public AdapterLihatBarang(ArrayList<Barang> barangs, Context ctx){
         /* Inisiasi data dan variabel yang akan digunakan*/
         daftarBarang = barangs;
